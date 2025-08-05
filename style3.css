@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+body{
+    min-height: 100vh;
+    background: black;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    height: 100vh;
+    gap: 2px;
+}
+
+.card{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex: 1;
+    gap: 16px;
+    background: cover;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.card_1{
+    background: url(Tiger2.avif);
+    
+}
+
+.card_2{
+    background: url(Tiger3.avif);
+}
+.card_3{
+    background: url(Tiger4.avif);
+}
+.card_4{
+    background: url(Tiger5.jpg)
+
+}
+h3{
+    font-size: 38px;
+    text-transform: uppercase;
+    line-height: 38px;
+
+}
+
+h4{
+    font-size: 14px;
+    text-transform: capitalize;
+
+}
